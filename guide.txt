@@ -1,0 +1,10 @@
+!NOTE: Install docker and docker compose into your system
+
+1) To run docker-hadoop:
+	(open terminal where docker-compose.yaml file exsits)
+	(hdfs web-UI will be running on http://localhost:50070) 
+	=> docker compose up -d && docker exec -it bda /bin/bash
+
+2) To exit: 
+	=> exit
+	=> docker compose down

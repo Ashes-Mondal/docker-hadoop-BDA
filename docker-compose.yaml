@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+    bda:
+      build: .
+      hostname: "quickstart.cloudera"
+      ports: ["50070:50070","50075:50075","8888:8888","8020:8020","8088:8088"]
+      volumes:
+             - ./mount:/data-volume
+      container_name: bda
+      privileged: true
+      entrypoint: ["/usr/bin/docker-quickstart"]
+      stdin_open: true
+      tty: true
+
