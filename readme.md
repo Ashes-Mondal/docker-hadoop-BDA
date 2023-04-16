@@ -1,7 +1,8 @@
 # docker-hadoop-BDA
 > **Note:** 
 > **Creator:** Ashes-Mondal (https://www.linkedin.com/in/ashes-mondal-31690319a/)
-**Prerequisite:**
+
+>**Prerequisite:**
 >Install **docker** and **docker compose** into your system
 
 #### To run docker-hadoop:
@@ -12,4 +13,5 @@ hdfs web-UI will be running on http://localhost:50070
 
 #### To exit: 
 > **exit**
+
 > **docker compose down**
