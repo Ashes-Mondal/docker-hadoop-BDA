@@ -1,0 +1,5 @@
+Here in this example only input
+M:1000*100 matrix
+N:100*1000 matrix
+
+Code Taken from: https://github.com/marufaytekin/MatrixMultiply

@@ -1,0 +1,5 @@
+Here in this example only input
+M:2*2 matrix
+N:2*2 matrix
+
+Code taken from: https://github.com/marufaytekin/MatrixMultiply
